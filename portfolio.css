@@ -1,0 +1,31 @@
+h1 {
+    color:rgb(60, 60, 219);
+    text-align: center;
+    font-size: 100px;
+}
+
+.title_desc {
+    font-weight: bold;
+    text-align: center;
+}
+
+#img_title {
+    font-size: 50px;
+}
+
+.card_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.card {
+    text-align: center;
+}
+
+.card_img {
+    width: 150px; 
+    height: 150px; 
+    object-fit: contain;
+}
